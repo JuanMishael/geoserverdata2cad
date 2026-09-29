@@ -1,0 +1,25 @@
+{
+  "name": "geoserver-to-cad",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sample": "node scripts/make-sample-dxf.mjs"
+  },
+  "dependencies": {
+    "proj4": "^2.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "description": "A small React app that pulls layers from GeoServer (WFS, GeoJSON), lets you map each layer and its asset fields to CAD layers / blocks / attribute tags, and exports a **DXF that plain AutoCAD opens directly**.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
+}
